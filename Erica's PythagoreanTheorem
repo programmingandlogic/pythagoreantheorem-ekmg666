@@ -10,11 +10,11 @@ import acm.program.*;
 public class Quadratic extends ConsoleProgram {
 
 	public void run() {
-		println();
-		int t1 = 6;
-		int t2 = 11;
-		while (something)
-			int t3 = (t1*t1+ t2*t2)/2; 
+		println("Enter values to compute Pythagorean Theorem");
+		double a = readDouble ("a:");
+		double b = readDouble ("b:"); 	
+		double c = Math.sqrt(a*a+b*b);
+		println ("c =" + c + ".");
+		
 	}
-
-}
+}	
